@@ -17,3 +17,7 @@ and the coverage report shows 0% coverage.
 This does not happen with the previous version of Gradle:
 
 After executing `./gradlew wrapper --gradle-version 6.4.1`, `./gradlew test jacocoTestReport` does _not_ have these lines in the output and the coverage report shows 100% coverage.
+
+## Notes
+
+This repository requires a Java version ≥ 9.
